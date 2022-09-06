@@ -1,0 +1,102 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 213, 179);
+}
+.head{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+h1, h2, button{
+    margin-left: 20px;
+}
+
+h2{
+    margin-left:40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    position: absolute;
+    right: 10px;
+    width: 10%;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.main{
+    grid-area: main;
+    display: flex;
+
+}
+
+.left, .right{
+    width: 50%;
+    margin: 5px;
+}
+
+.left{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+.left p{
+    text-align: justify;
+}
+
+.right{
+    padding: 10px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.foot{
+    grid-area: footer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.foot p{
+    padding: 10px;
+}
+
+
+.container{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    grid-template: 
+        'header' 60px
+        'main' 1fr
+        'footer' 60px;
+}
+
+.grid-item{
+    background-color: burlywood;
+    border: 3px solid black;
+    padding: 10px;
+    
+}

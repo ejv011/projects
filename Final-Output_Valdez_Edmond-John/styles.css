@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Onry', sans-serif;
+}
+body{
+    background-color: #2b2623;
+}
+
+nav .container-fluid .navbar-brand  {
+    font-size: 35px;
+}
+nav .container-fluid a span{
+    color:#988080;
+}
+.navbar{
+    /* background-color: #988080;
+    background-color: #FCDCDC;
+    background-color: #BECEDA;
+    background-color: #2B4C59;  */
+    background-color: #95BCCC;
+    border-radius: 20px;
+}
+
+.nav-link{
+    color: black;
+    margin-left: 10px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #2B4C59;
+    border-radius: 10px;
+}
+
+
+
+/* Container Main */
+.container.main{
+    /* background-color: #988080;
+    background-color: #2B4C59;
+    background-color: #FCDCDC; 
+    background-color: #BECEDA; 
+    background-color: #95BCCC;*/
+    margin-top:15px;
+    background-color: #BECEDA;
+    /* height: 85vh; */
+    border-radius: 20px;
+    
+}
+
+.container.main .row .left{
+    margin: auto;
+}
+/* .row .left p{
+    margin-top:10px;
+    font-size: 150%;
+} */
+.container.main .row .left .text{
+    margin-left: 50px;
+}
+.container.main .row .left .text h1 {
+    color:#2B4C59;
+    border-bottom: 5px solid #FCDCDC;
+    width: 85%;
+}
+
+.container.main .row .left p {
+    color:#2B4C59;
+}
+
+.container.main .row .left h1 span{
+    color:#988080;
+}
+
+.container.main .row .right{
+    height: 85vh;
+
+}
+
+.container.main .row .right img{
+   height: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 25px;
+
+}
+/* END OF CONTAINER MAIN */
+
+/* CONTAINER ABOUT ME */
+.container.about{
+    /* background-color: #988080;
+    background-color: #2B4C59;
+    background-color: #FCDCDC; 
+    background-color: #BECEDA; 
+    background-color: #95BCCC;*/
+    margin-top:15px;
+    background-color: #BECEDA;
+    border-radius: 20px;
+    
+}
+
+/* .container.about .row .left{
+
+} */
+
+.container.about .row .left img{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+ 
+ }
+
+ .container.about .row .right h1{
+    text-align: center;
+}
+
+.container.about .row .right i{
+    margin-right: 20px;
+}
+
+.container.about .row .right{
+    margin: auto;
+    text-align: justify;
+}
+
+.container.about .row .right .text{
+    margin:40px;
+    line-height: 2;
+}
+
+/* END OF CONTAINER ABOUT ME */
+
+/* CONTAINER EXPERIENCE */
+.container.experience{
+    margin-top:15px;
+    background-color: #BECEDA;
+    border-radius: 20px;
+    
+}
+
+.container.experience .row {
+    margin: 10px;
+}
+.container.experience .row .left h1{
+    margin-top: 30px;
+    border-bottom: 5px solid #FCDCDC;
+    width: 45%;
+}
+.container.experience .row .left .content{
+    margin: auto;
+}
+.container.experience .row .right h1{
+    margin-top: 30px;
+    border-bottom: 5px solid #FCDCDC;
+    width: 20%;
+}
+.container.experience .row .right .text{
+    margin: auto;
+}
+.container.experience .row .right li{
+    margin-top: 10px;
+}
+
+/* END OF CONTAINER EXPERIENCE*/
+
+/* CONTAINER SERVICES */
+.container.services{
+    margin-top:15px;
+    background-color: #BECEDA;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.container.services h1.title{
+    border-bottom: 5px solid #FCDCDC;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.container.services .row{
+
+    justify-content: center;
+}
+
+.container.services .card{
+    background-color:#95BCCC;
+    width: 270px;
+    margin: 10px;
+}
+
+.container.services .card:hover{
+    color: white;
+    background-color: #2B4C59;
+}
+
+.container.services .card h1 i{
+    margin-top:20px;
+}
+
+/* END OF CONTAINER SERVICES*/
+
+/* CONTAINER FOR EDUCATION AND CERTIFICATES */
+.container.education{
+    margin-top:15px;
+    background-color: #BECEDA;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.container.education .row {
+    margin: 10px;
+    
+}
+.container.education .row .left h1{
+    border-bottom: 5px solid #FCDCDC;
+    width: 210px;
+}
+
+.container.education .row .right ul li a{
+    color: black; 
+}
+
+.container.education .row .right ul li a:hover{
+    color: white;
+    background-color: #2B4C59;
+    border-radius: 5px;
+}
+
+.container.education .row .right .list-group.list-group-flush .list-group-item{
+    background-color: #BECEDA; 
+}
+
+.container.education .row .right h1{
+    border-bottom: 5px solid #FCDCDC;
+    width: 250px;
+}
+/* END OF CONTAINER FOR EDUCATION AND CERTIFICATES */
+
+/* CONTAINER FOR PROJECTS*/
+.container.project{
+    margin-top:15px;
+    background-color: #BECEDA;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container.project h2{
+    margin-top: 20px;
+}
+.container.project h2 i{
+    margin-right: 20px;
+}
+
+.container.project h1{
+    border-bottom: 5px solid #FCDCDC;
+    width: 200px;
+    margin: auto;
+}
+
+/* END OF CONTAINER FOR PROJECTS*/
+
+/*CONTAINER FOR CONTACTS*/
+.container.contact{
+    margin-top:15px;
+    background-color: #BECEDA;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.container.contact .row{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container.contact h1.title{
+    border-bottom: 5px solid #FCDCDC;
+    width: 250px;
+    margin: auto;
+}
+
+.container.contact .card{
+    width: 270px;
+    margin: 10px;
+}
+
+.container.contact .card p{
+    font-size: 15px;
+}
+
+.container.contact .card:hover{
+    color: white;
+    background-color: #2B4C59;
+}
+
+.container.contact .card h1{
+    margin-top: 10px;
+}
+/*END OF CONTAINER FOR CONTACTS*/
+
+/* Footer */
+footer{
+    margin-top: 15px;
+    background-color:#95BCCC ;
+}
